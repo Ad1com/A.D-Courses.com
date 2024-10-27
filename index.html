@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.D Animation course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.course {
+    background: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 300px;
+}
+
+.course img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+</style>
+
+<body>
+    <header>
+        <h1>Learn Animation</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.coursera.org/courses?query=animation">Courses</a></li>
+                <li><a href="https://adibeta114.github.io/Blogs.github.io/">About Us</a></li>
+                <li><a href="https://adibeta114.github.io/Feedback.github.io/">Contact</a></li>
+                <li><a href="https://Google.com">Hire Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2 style="color: red;">Transform Your Imagination into Reality</h2>
+        <p style="color: black;">Join our animation courses and unleash your creativity!</p>
+        <a href="https://www.coursera.org/courses?query=animation" class="cta-button">View Courses</a>
+    </section>
+
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <div class="course">
+            <img src="data:image/jpeg;base64,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" alt="Course 1">
+            <h3>2D Animation Basics</h3>
+            <p>Learn the fundamentals of 2D animation from Adobe animate cc.</p>
+            <a href="https://www.coursera.org/courses?query=animation" class="cta-button">Enroll Now</a>
+        </div>
+        <div class="course">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBDgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAFBgMEBwACAf/EAEIQAAIBAwMBBQQHBgUEAQUAAAECAwAEEQUSITEGE0FRYSIycYEUQpGhscHRByNSYuHwFTNysvEWJMLSoiU0VIKS/8QAGgEAAgMBAQAAAAAAAAAAAAAAAwQBAgUABv/EACoRAAICAQQBAwQCAwEAAAAAAAECAAMRBBIhMRMiQVEUMnGBIzMFYbEV/9oADAMBAAIRAxEAPwBLRfnVmLnAYZFTvZ92fZr0kQBHnVYSQzQBuVrP71g97MV6FzWlum2Jj6VmEvM8mPFj+NcJxMkt+Sw8xR3R9PE2j38zbR3bIdx8ByPxI+PyoOiKghf+I+1TZKgtuyMyDgyyoOPrchsfIKftqp7hBBOmQnUb5bK0QlO5LEnq2ASWb5ZryLlYWu7W029zGoDHaCZCDyTnrRrsVEba6unIw5t+oHIXnA+bYPwWlBCbe7njH8y/fQ87mYficPTgz3PABCLg7HjY4OzgofIinjspAh0N5oiRiYcPgePhSY/GnXCjwZSPhT52WRf+gnce0xnYZ+YoGsb+L9y6qA8J9prRhosR7ttts20n0/sUuXmToaMOokC/IAgf7aY9UAujdwMeDHE6+n95obe2DwaLIuQf3iOPgd3/ALVnUMAMH5hbDkR47MCDUuxaWlygkidpY5V9Cc/nVnSo5NN0yHTZJA/0XCxvn3lAwPnjNKHZTVTZyLp7bitxHvQKM4cOw/v4Uxzz3AgEswUOpPGeo86zNWLg7Vk+knMf0tasufeS3UjpIrxcsSV256jrijUM4tdLypHeOcD1PiaWmZr2DvYAc+o648fkagk1Ke4WCGCN3aJCXCDO09PCgKje0besPge0NGXGj3chY4Mbe158fnVWK8mZUW3QtO68AH3B4fDFCLrWP+yjtFUqvuv8vD41ftpCoCYCs/tMB1x6+nlXFCoywlgo5hyxiESKmVlbGDj3VHkPOvmsPNNizhZiGGZMc/AeldZksE2A7duRgdfWr7tqIiC2kE756tggD4U1o2LHbjuZurGFzmVdJs2g1QgkqHUghhjrQKTTWt9RnT+CSmZIZ4buN50KnxLMCai1aELrTEDiVVf8j94NaWm4J/EymYwNNbsICpFeNA3wanCwB2CRd3wOV/MUdlhVXCkdQcVShgSOZZAo4/HOR+FEQblkZlHXNMxIZo0JjVgC2OAN3P413azT2ktbGbb7SjYfUdRTFfLCJJWWMZMZb3vn+VXryCG70QuFBESFwpHiAcGmKGxtBkE5mc29gU06QydZML8fH9K8iwUQk7Pdb8qNELIhDSK0vkT7XyFUZ9U0SzWVbu+jQoq94FOcN8q1sZEGIP7hI6R/2kToVsoFbJBZivpwM053va7s3ChClrggfVcKPvrLe1WsRa3qrXUFt9HhVAkcecnAJPP21ezAGJ0DV1dXUCWnV1dXV06bT3O8e7moXhA+rS+mt6tbf5sauPHIr4e1Ure/aoPUGpnA+0KanJHbabPNI21QhrKyedx6k5pj13U7jVlihU7IS/uKc5YnxoM8TxEowDY9nDDkVTIl9pk6Ed3aN4bWBHwc02Sxyz6RpscS5Uq52/zHIz9m2gNhbLeTQIINjEbRtHHXrRrtVexW6RWFkwQRY3keOOg/OqE5hAss6MUg1aeOI7kjhEe4eYI/rSpqFsI9VmAPvsxz5AjOaauxdqGj78su53bd68fqRQvtVZiNLe4QbUZmhY55JU+PypNLP52EuynECmQGFiwwsyMPmORT52LHedgpEP8A+Uw+4Ug3NlcrDGhHAGVx41ovYK3f/om73L7t30+VTrCPD+xIAYtmQm+/+q25c/50KqR54H9Ku6lcl9FbgblUA/EPj8KDiydr21lb3QxAOegJJP40fTRrm80t5VQlcYIXJ5zzn7zWftXcuIbBHcs/s60pL9m1icZS1jMEeP4y7lj8QMfbTC9odRvxCoIt1BaQrx7I8KVI9Ybsr2DaKAst1PqkqqpAU4Cxlj18sfMinPR9Y06XRpry2kX6O1ms7FeqgM+4fEYFB1Omte0MOoem8VofmU9Umt7KAyzoghjGIocezn4eJpZ7N613mpXUc0DxvKCUbA2/DA6VL2q1ArJEZlVDghVz0B5BP2HPyqpYTWay5idVEZVu8kB9s56gDx6/Cr16LbUQ33GM+cdjqNC2yP3scqqdsYLce6SDg/EcVQsoY7e8miLswVsnvOS3x9B5elVYe0UjzapfQhAksoMYdc7QMAE/AZPxNR6WlxqbW0jxkNKzElSVDjPUnzpezSui98Q9duTzGq2lE8gfIbb7WScD4nH4VdOrFlMdu58u8Pn5AUpdrTrOjiKVI4G0cDEncZ3KfAkHwFCNM7VxFdzAgEnb6geNaH+O/wATZ4/IvJ/5MjXapd20cCaG0n7xXZyW8STV/UgJGtZ+pIKH7iPxNZrc9tICAULdDjFdc9r725sCFbu4onU7o/ePUeNG+kuQb2GAIiHU8CaDqEywvEzEKMck0LN+jd4yY7pGy0rnag+ZpF7Ra8fpdupFxOAqNh2JGeeoFD7nWLqe8k7+KaVeNqMvsrVqExUAZY4ml6lrtootDBOJ5JI29lANuNp5Jr3o2owS2oa71B5Y5IGRoVfKkcZGMAenwpG0zVZZrOKNrI+yxXGMcUW7PanKtpGfoNuAuVywPAPzoNjbevmWAlTU9D0DT7eS+gvrxbUgvtNwX3MOiuT1A648cUvXzdmrLu7VkV2RS0+4lmMp65wQMjOOMeNHtC7QvcdpJ9Au4oGt55gkP7r3Hz7JPnzishLvMe8kO9mJyx8zWylmUEEZ6v50nuZHhjWKLOEjVcBV8M+tVa+nyr5ipJzOnV1dXVE6dXV1diunRwhvXusle8ZV6k0NvtRy/dmAd2Rx4HNfbzWpthUbFz9VFxQg3TuR3mG9T1qpLGGwqngyxAoedCjjvM5IPGMVYii3oxZtwByzEdfh614t3ik1OExqAreyF6DOCPxq5HD3QhVTy3Hxbx++ht1LAjMM9n91rp9xqLEhIF2RqfFz0+7P3Us3QklkMkm5mf2s8Uwa1eR26QaZGxNtCd0sgXgscZ/D8KBXFyJpg4iZY29mM48B6VABk5Eeeylvt0ElUIYSjBwOcslBteQ3EF6iH3JI7lAfDcAD+VHOxl9bnRnjBc7XGMjk4ZKG3E9u+orC0qrHJAYGJIHtcgcfHFZqlluY4huCO4pLPKZYgWIZGwOfWtH7IvdnsjqveSlWeVOV58KSdQiit2w8iBzyMCnPs1qsH/TGockMCrcD1o2qJavgSigA8mBH+lF4j38m5JMquOMf2Kb+0Uxi0YafBJL+6jErqHKks3UcfGgMN9ZXOsRQqrgMB5YPTj8ftNFdS1CCftMbYA+3I8JGPPOPvxQtpYDj4ksQMnMVJrOET229nZI2eUq7FiGZU4Ofh91XJ9TNpbz29psiS8XbJsGPEH8qpahI4jkZhiVZhHIPXacH4ez+NCJJydhP1ByPnj869fRXUlWcZmM7O75zNesdc03XOx9vPJFbfTI8W1xLKOIwBySfDco4PrQHVJ9Knd7HSrdE7sb5HQ5B59OOT60rdidV+hTyQND3sUwXvUzgOnRlP3fCmnXJgztJpli8McnvvuZzj0z0+Fec1IVbWzPQaXJqEFxTJCncOFkEjAMh4yvj0qTWO0ot3tUtGEexSCF6fKqYjlvmaDSrZTOq4BL5Jz4n9Kup+zy9Ve9v5FLZzg9B8qAAvbRht2eIJ1nWtb1HRZ5e8ZLA4Ukn3/QCl+a7aOORUONqqi+gApg7Xx3GnaVHZSOrxd4ACFx05NJ0rZO7wPNa2hfZUSPeZGtGbcGMWhhZbqFZgzjA4VgvX1PTrW23PZ6xvuz2/SXENxHCNrs+7eByVYnr6Gsj7C/4cL4pqsfeQMu3GfhTbfdoY+zFxcWljKJ7K4gOxGfOwnjH4UrrLCx8ftL6XTq1ZPvA3auK/tdQhjuDJEdi4AjOD8D49a+Du43aa5F1IgUE5JUD54p97KX1xqGlQ2mrWqTWfcgCVWyVA8fQ1mXbmx1ew1qXTbu6lurQYkt3HuvGfdPHj4fHypRFyAM9S7V+My3p3aW3Scw2tmHy4w0jkgcjn1qbTL2aaCVrhu82hSF6DiQDgD40q6UgivYyT9YcfOmjToC8c4UYHdP9zA/lQbwFlRkzyUto+0tvdhLjepR9yuPZ2kc4x6edJur2aWmrXtqgCCGd12jwwxwPsxWo2unRS6mgm5QxOJCOoUkfrWZLK+ratd3kibTdSSzFQfd3bmx99N0WZTMoy84gSRCuM/3zXij3aCxSyijA95y55+OaCwRGVwOaaVgRmDK84kddipTHjg9a9xohRj44NTmTtleur22PCvBq0qZfggS53MZApUZwerGvH0RgpZwRzgCqmSDmic+5LaM5OTGrfdQ2yuIZdrAkiQC0dMPyGPKY8/1pr7OaW1/f2ffZDs+4j5fnilO0mk3MrOSGUttJ6n9a0rsbIwu419lmjR3QHqVI6fEHn5mquSJy7TE7XoHk1CbcBDaxsdvX2j+dC5ZDuCriPjHHXHl6fCiOoBo7m8a6LFlchU/voKFXEoOyTby2c81ysSBJIUDMeOx4WGwXHIMqfeD/AOtB+1cAhuBcR/VkJIHhzkVe7O3Pd6JJKoG5drAHno23/wAxQ7X5ZLkmUNgSZXjpnFJID9QT7QhI2ytqttFLIswfaZFDKPiOR9tF+zG06TfRFzh0HHlz/WhGkRm8FnEzBW79YtzdAGOMn0rRuzWidndMdmnury5KjaRIioj+u3GcehJolmdm3MhE3jIiHFJHa6zamRWVldeQennkVpGj6Oidpr7Xrht0dsF2A9DMy5yPTHI/1YoT2rWy1C9ht7SytWkkJK3Ah2suOnP9/CnTS4YbGxttJu5+8uFm3SsUwrDbgBfMABf6VXO5cCE8RRsmJfa/sjqElnNqVn3bM7iQxk7cAk8evU1mv7yG77q6Qo3QhvKt217WIVsbu3XDOYfZ8sf2KxjW2S5uImG0KhKb/NuOB6CmtHqrSRW3QgtRpawpdZ506Z9I1SG4xuEbEkfxKRyK1/S+02lXlsquFwy+PFYw1wyARXCFsDGfrVGDGDmKd0PkQR94rQ1WkS45zzFdPqWqGCOJp2hXVvaa9fT26h2YgIB06UZ1HUr6dSZHjRSOhOTWMxzTW0neRzswPvBXP9KtSateSR4gu5go+ozUn/5rEZ3cxv69c/bL3bO+72RLVmaRl5zkYpXBOzB86t6jKTcbnO59gGT41V2nYh65JpgJ4wFEUssNjFjCWnTAzKjE7TJzt649K1XSmsYLT6PfafDPEw5Yr1rKdBuJrLU4pbdY3YsFKyDIOfCtRj1/SXj+j326wuSM93ONyt/pYdB/qxSOrByDHdGRtIMnLrpRaXQLh1gIO+xlOT692fy+yvmnXVn2ltDp144SRT/2l2CN0BP1SpxuTpkD7uoD395AB+4kEu73Qpzk+hp57Gdl7LTrNZp0V7lxud265POKU4xkxxgCJmn/AE/e6bqEialCUdHIBwdrfzA+Io82yztZtnX6PNyR47c1qE7WMjCC6WJoQpLBsEMMcj5cVlSs09zcRw7e6/ehJJeVVNrcnz9kZpa9SWHxFT6R1L2mmQ2s+osB3cQ3MxznGMgD/wDYCkHRLYRXyW594Bl+e1qY9U16aXSJ7aAFYFiDLu95sN1bH4CgPZ5Wl7Qk+HeE/aD+tMrkVmByMyz27siIrGYjCMrD4kcUs6YifSFU4xzTr+0J5G0DSZcAqJ5ozx0wx/SkTTCxugceBo2kJakEyCQDIm9pmOPHirOm2f0mGYjqgyfhzVVpisSrsA460R0K6Cd9GIVJeMjJY/GmWyF4kZUnmDBD7WMZxURGOKsi4Vdz87z0GOMVCUaQFwPHHFWGfeVOPaTPYXKxd4YJNh6HFTS95dLBHbq7ssQVlA8RRKS4na0WGPJO3Gak0+A2y5zhm5NANpxkxkUDOB7wHLaywFO8ideOcjFal+z5IrzUkK++sbhl8vZPNJN27SqY3bcW6U+/sftUttU3SKGeTK8jwxVLLfTzINW3qJvb22Nt2j1VQPZZ1ZceopScHCDyzW3/ALQdGt7jUmdYgJWjKqRx7WCR+BrI49PeSRhKDHEvUdCf1qNLerJ+JSysnAEOdnFeTRJNgzhGyPLG0/8AjVZI/pNnOinLR4cf7T+VNWgW0Fn2YzGnMdypY+JVsg/lVfstpMMupyxupMTF4jk8cjA+/FKm9cs0IaSMCKegXH0TWrOXapCzpIA3TKsDWorqjwtC41WP9/GH9zAAIyBSdq9raxSMv0YI0TZDdD61cstbk02Jo4rbv43wECqN6D0z4UUuLcEQlf8AEcGe+1mttaXVldtcS3PdybsPDtjJwcgedeo9Q1HW7pL5JhZwqQ6uxyT8hS3rdvrev6kizwzRRqPfuiI0TzJY4X76PWlvbQxJE19byRoMfuZhJ/tzRX2qgx3JrYu7Z6ljXJvpEDXySBFVTHNgcMD4j1yRSBf75tPtZlU7dzgenTFOGrapB7OnRIO7RGcZ8SQQfnSrb3ZjjFtuHdg9D0HrU1EgbgOYKwhjtk+ohI4rYuTuljySR0xQxkTPEsdN9xq9jLpyW9vFHM4XazyxbHPqOtKXsJLsuEOB9YDn51o6PUtYpWwciA1elFeHToyBvZOFYMT/AA18Cyj2tpGKmeUD2YI8Z+sxxXwQTP73PwpojJwO4l7cyCQs77nNWAjRQws3+Yc7V8vWukCQZ3HMngvl8aj/AH0mJAGLAe8B7vWgWEIeYRVL8AQlp1oyxyTrH3gjxkeDt4/ICtZ0nSHn0qC+NotnqkER7yFUVpI4m5VwpzwftHPSkXsoEXU7KKBi8cpWKaJ8e71bHxGa068eZ5oxZsv+JWIzA6n/AO4gPIHrjp61l6m0WPwOB1Niuh6a9p7PMWTDPJMRdWVi7BvZuo49rMcZB9DnAIqzonbj6aF0+WJ7W6APvnKkDrz6YqR9ThkmleMNCZDzFL0jPjg+XpSA9wp1m3togrYvGOSMkg5z/u+6r6ZEsDBoLUsyFSvU04XYe1e+lYmztA8uG4M7bSAB6biopR0qcAzKzHvFt3UbvNlK/mataxrAns5bNWRIwF3M/usc8AHwAwfj9lL+kTSteShVDABRkNnj0rPZdw/Emxtxl4QJNGImP+ZA6j7jU/Y+zQX7SFfBD/8AGq1pIFFozEcHBVjg8jzop2ccQNKVYewMdQemapYxCESgUT523t1m7K2X8t5O/wD8jWf6ZD/3hTwBIrSNWuDN2dSN2X2XcjI8yaRNOjH+JscnG/naho2icik/uUKjMh1OzS3tYlxk/wDNWOylkklzLIQMLgbT45z+lW+0qjYoRS/TPH9+de+yxCwyMFRScng/35Uc2HxZnBRmLVzbiO4ZAANvGK6MYtpB/Ov4GrepHZqU42nIduBnpk14hBe3lwi++v4NTAbI5ldonNcmNVGMEVH9PbPJqKeTMhxjFQMx8hUBBJaxh0ZeS7KyBjWhfsrvd2t/DLfdWYbzwfKnr9ls2NakZuiwk0DVJiokSFsPU17tXBHuhvVx7ScDHkev2E/bWG9osWGs3MW0Absj1rfEjGpaO0QwZIJCUHmPEfjWNftS0z6JfxzY2h1xk+dJaUDePgyRYVk/Z27S6sLuFuFEQk//AJYH8M0XN9bW0sndKU6Nx+NJPZG52zmIk7ZEZD8x/wA1bkuSzRliQSu1vj0rrKBvIhEvPcKdr7iB7wSwjEcyiQHHnyaCNKsccJEg3K2KsXDG60dSeZLZivypZuXILLnpyKPRV6dso15J5jhqWp
+            
+                        <h3>3D Animation Techniques</h3>
+            <p>Explore advanced techniques in 3D animation.</p>
+            <a href="https://www.coursera.org/courses?query=animation" class="cta-button">Enroll Now</a>
+        </div>
+        <div class="course">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNop7Re47Xsa-vxGFzWqGh562n0nCeQnv13m3MZRiM2Syi8jNwadFbVdk&s" alt="Course 3">
+            <h3>Character Animation</h3>
+            <p>Create stunning characters and bring them to life.</p>
+            <a href="https://www.coursera.org/courses?query=animation" class="cta-button">Enroll Now</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about teaching animation and helping aspiring artists achieve their dreams.</p>
+    </section>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: info@A.Dstudio courses.com</p>
+        <p>Follow us on social media!</p>
+    </footer>
+</body>
+</html>
